@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration Form in HTML CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <main-section>
+        <header class="header">
+            <h1 class="logo">IT Job Hub</h1>
+            <div class="nav-bar">
+              <a class="nav-items" href="./index.html">Home</a>
+              <a class="nav-items" href="./jobs.html">Jobs</a>
+              <a class="nav-items" href="./apply.html">Apply</a>
+              <a class="nav-items" href="./about-me.html">About</a>
+            </div>
+          </header>
+    
+<div class="apply">
+    <section class="container">
+        <header> Job Application</header>
+        <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post" class="form">
+          
+          <div class="input-box">
+              <label for="Reference_No">Reference_No</label>
+              <input type="text" placeholder="Enter Reference no" value="" name="Reference_No" id="Reference_No" required />
+            </div>
+  
+  
+          <div class="input-box">
+            <label for="First_Name">First_Name</label>
+            <input type="text" placeholder="Enter first name" value="" name="First_Name" id="First_Name" required />
+          </div>
+  
+          <div class="input-box">
+            <label for="Last_Name">Last_Name</label>
+            <input type="text" placeholder="Enter last name" value="" name="Last_Name" id="Last_Name" required />
+          </div>
+  
+          <div class="input-box">
+              <label for="Birth_Date">Birth Date</label>
+              <input type="date" placeholder="Enter birth date" value="" name="Birth_Date" id="Birth_Date" required  required />
+            </div>
+  
+            <div class="gender-box">
+              <h3>Gender</h3>
+              <div class="gender-option">
+                <div class="gender">
+                  <input type="radio" id="check-male" name="gender" value="Male" checked />
+                  <label for="check-male">male</label>
+                </div>
+                <div class="gender">
+                  <input type="radio" id="check-female" name="gender" value="Female" />
+                  <label for="check-female">Female</label>
+                </div>
+                <div class="gender">
+                  <input type="radio" id="check-other" name="gender"  value="not prefered"/>
+                  <label for="check-other">prefer not to say</label>
+                </div>
+              </div>
+            </div>
+          
+          
+          <div class="input-box address">
+            <label >Address</label>
+            <input type="text" placeholder="Enter street address" required />
+            <input type="text" placeholder="Suburb or Town" required />
+            <div class="column">
+              <div class="select-box">
+                <select>
+                  <option hidden>State</option>
+                  <option>VIC</option>
+                  <option>NSW</option>
+                  <option>QLD</option>
+                  <option>NT</option>
+                  <option>WA</option>
+                  <option>SA</option>
+                  <option>TAS</option>
+                  <option>ACT</option>
+                </select>
+              </div>
+            </div>
+          </div>
+  
+          <div class="column">
+              <div class="input-box">
+                <label for="Postal_code" >Postal Code</label>
+                <input type="number" placeholder="Postal Code" value="" name="Postal_code" id="Postal_code" required />
+              </div>
+              
+          </div>
+  
+          <div class="column">
+              <div class="input-box">
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="Enter email id" value="" name="email" id="email" required />
+              </div>  
+          </div>
+  
+          <div class="column">
+              <div class="input-box">
+                <label for="phone_number">Phone Number</label>
+                <input type="number" placeholder="Enter phone number" value="" name="phone_number" id="phone_number" required required />
+              </div>
+          </div>
+  
+          <div class="column">
+          <label>Skills</label>
+          <div class="column-1">
+              <div class="input-box-1">
+                  
+                  <input type="checkbox" id="skills" name="skills" value="Web Development">
+                  <label for="skills"> Web Development</label><br>
+                  <input type="checkbox" id="skills" name="skills" value="API Connections">
+                  <label for="skills"> API Connections</label><br>
+                  <input type="checkbox" id="skills" name="skills" value="Graphics Designing">
+                  <label for="skills"> Graphics Designig</label><br><br>
+              </div>
+          </div>
+      </div>
+      <button>Submit</button>
+        </form>
+      </section>
+</div>
+  </body>
+</html>

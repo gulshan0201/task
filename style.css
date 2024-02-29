@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgba(245, 245, 220, 0.464);
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .nav-bar {
+    padding-right: 5rem;
+  }
+  .nav-items {
+    margin: 2rem;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  .logo {
+    padding-left: 8rem;
+  }
+  .part1 {
+    width: 100%;
+    height: 90vh;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+  }
+  .part1-div {
+    width: 45%;
+    height: 70%;
+  }
+  .part1-div-h1 {
+    font-size: 4rem;
+  }
+  .part1-div-p {
+    font-size: 20px;
+    color: gray;
+  }
+  .part1-div-img {
+    width: 35rem;
+    margin: 2rem 4rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+  }
+  .part1-1 {
+    padding: 5rem;
+  }
+  .part2 {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  .part2-h1 {
+    font-size: 3rem;
+  }
+  .part2-p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .part3 {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .part3-h1 {
+    font-size: 2rem;
+    padding: 20px 10px;
+    margin: 5rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: rgb(209, 255, 255);
+  }
+  .part3-p {
+    font-size: 20px;
+    margin-top: 2rem;
+  }
+  
+  .jobs-part1 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .jobs-part1-h1 {
+    font-size: 4rem;
+  }
+  .jobs-part1-p {
+    font-size: 1.2rem;
+    margin: 0rem 10rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .jobs-part2 {
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .job-part2-imgs {
+    width: 30rem;
+    height: 22rem;
+    border-radius: 20px;
+    margin: 2rem 0rem;
+  }
+  .jobs-part3-h2 {
+    font-size: 2.5rem;
+    margin: 2rem;
+    margin-left: 5rem;
+  }
+  .jobs-part4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .jobs-part4-items {
+    height: 20rem;
+    width: 30rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .jobs-part4-items-h1 {
+    font-size: 2rem;
+  }
+  .jobs-part4-items-p {
+    font-size: 1rem;
+    text-align: justify;
+    margin: 10px 0;
+  }
+  .jobs-part4-listitems {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-left: 2rem;
+  }
+  
+  .footer {
+    height: 40vh;
+    margin-top: 3rem;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    flex-direction: column;
+  }
+  .footer-labels {
+    display: flex;
+    margin-top: 30px;
+  }
+  .footer-input {
+    width: 30rem;
+    margin-left: 30px;
+  }
+  .apply {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 5rem;
+  }
+  .container header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+  }
+  .container .form {
+    margin-top: 30px;
+  }
+  .form .input-box {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .input-box label {
+    color: #333;
+  }
+  .form :where(.input-box input, .select-box) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+  }
+  .input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .form .column {
+    display: flex;
+    column-gap: 15px;
+  }
+  .form .gender-box {
+    margin-top: 20px;
+  }
+  .gender-box h3 {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  .form :where(.gender-option, .gender) {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+  }
+  .form .gender {
+    column-gap: 5px;
+  }
+  .gender input {
+    accent-color: rgb(130, 106, 251);
+  }
+  .form :where(.gender input, .gender label) {
+    cursor: pointer;
+  }
+  .gender label {
+    color: #707070;
+  }
+  .address :where(input, .select-box) {
+    margin-top: 15px;
+  }
+  .select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+  }
+  .form button {
+    height: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: rgb(130, 106, 251);
+  }
+  .form button:hover {
+    background: rgb(88, 56, 250);
+  }
+  
+  .about-me {
+    width: 100%;
+    height: 60vh;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+  }
+  .about-part1 {
+    width: 40%;
+    height: 50vh;
+    border-radius: 10px;
+  }
+  .about-me-part2 {
+    font-size: 2.2rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    text-align: center;
+  }
+  .about-me-items {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+  }
+  .about-me-img {
+    width: 30rem;
+    margin: 1rem 4rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .about-me-table {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0px;
+    margin-bottom: 5rem;
+  }
+  .table-values {
+    border: 2px solid black;
+    height: 3rem;
+    width: 20rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .about-me-heading {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .about-me-footer {
+    height: 90vh;
+    background-color: black;
+  }
+  .about-me-footer-table {
+    color: white;
+    text-align: center;
+  }
+  .about-me-footer-table-h3 {
+    font-size: 2rem;
+    padding: 3rem 5rem;
+  }
+  .about-me-footer-table-h4 {
+    font-size: 1.5rem;
+    padding: 4rem 2rem;
+  }
+  .aboutme-list-items {
+    font-size: 1.2rem;
+    padding: 0.5rem 8rem;
+  }
+  
